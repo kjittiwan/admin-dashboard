@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="search">
+        <img src="./images/search.svg" alt="search">
+      <input type="text">
+      </div>
+      <div class="user">
+        <img src="./images/bell-outline.svg" alt="bell">
+        <img src="./images/account-circle.svg" alt="user">
+        <p>Morgan Oakley</p>
+      </div>
+      <div id="greeting">
+        <img src="./images/account-circle.svg" alt="user">
+        <div class="greeting-text">
+          <p>Hi there,</p>
+          <p>Morgan Oakley (@morgan)</p>
+        </div>
+        
+      </div>
+      <div class="btn-container">
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <p class="logo-text">Dashboard</p>
+      <ul>
+        <li>Home</li>
+        <li>Profile</li>
+        <li>Messages</li>
+        <li>History</li>
+        <li>Tasks</li>
+        <li>Communities</li>
+      </ul>
+      <ul>
+        <li>Settings</li>
+        <li>Support</li>
+        <li>Privacy</li>
+      </ul>
+
+    </div>
+    <div class="main">
+      <div class="projects">
+        <p class="section">Your Projects
+        </p>
+        <div class="card-container">
+          <div class="card">
+            <div>
+              <p class="title">Super Cool Project</p>
+              <p class="card-desc">Aenean in diam iaculis, laoreet nulla ac, placerat leo. Nam eget justo libero. Maecenas et.</p>
+            </div>
+            <div class="icons">
+              <img src="./images/star-plus-outline.svg" alt="star">
+              <img src="./images/eye-plus-outline.svg" alt="eye">
+              <img src="./images/share-variant-outline.svg" alt="share">
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="title">Less Cool Project</p>
+              <p class="card-desc">In massa orci, aliquet id semper vel, lacinia eget sapien. Fusce eget maximus turpis, ut vulputate lorem. Pellentesque gravida, urna eget mollis malesuada, sem ex finibus.</p>
+            </div>
+            
+            <div class="icons">
+              <img src="./images/star-plus-outline.svg" alt="star">
+              <img src="./images/eye-plus-outline.svg" alt="eye">
+              <img src="./images/share-variant-outline.svg" alt="share">
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="title">Impossible App</p>
+              <p class="card-desc">Mauris eget ligula tincidunt, pulvinar felis vel, malesuada mauris. Proin egestas tincidunt enim at.
+            </p>
+            </div>
+            
+            <div class="icons">
+              <img src="./images/star-plus-outline.svg" alt="star">
+              <img src="./images/eye-plus-outline.svg" alt="eye">
+              <img src="./images/share-variant-outline.svg" alt="share">
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="title">Easy Peasy App</p>
+              <p class="card-desc">Pellentesque ut condimentum erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. In hac habitasse platea dictumst. Proin.
+            </p>
+            </div>
+            <div class="icons">
+              <img src="./images/star-plus-outline.svg" alt="star">
+              <img src="./images/eye-plus-outline.svg" alt="eye">
+              <img src="./images/share-variant-outline.svg" alt="share">
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="title">Ad Blocker</p>
+              <p class="card-desc">
+              Suspendisse ultrices purus orci, et interdum velit rutrum a. Nulla quam nibh, congue et mattis vel, posuere sed.
+              </p>
+            </div>
+              <div class="icons">
+                <img src="./images/star-plus-outline.svg" alt="star">
+                <img src="./images/eye-plus-outline.svg" alt="eye">
+                <img src="./images/share-variant-outline.svg" alt="share">
+              </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="title">Money Maker</p>
+              <p class="card-desc">Fusce pellentesque sapien et nulla molestie, quis bibendum ante lobortis. Suspendisse feugiat neque vitae dolor fringilla sollicitudin. Pellentesque dapibus, nibh vel tristique faucibus.</p>
+            </div>
+            <div class="icons">
+              <img src="./images/star-plus-outline.svg" alt="star">
+              <img src="./images/eye-plus-outline.svg" alt="eye">
+              <img src="./images/share-variant-outline.svg" alt="share">
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="main-side">
+        <div class="announcements">
+          <p class="section">Announcements
+          </p>
+          <div class="announce-block">
+            <div class="card with-border">
+              <p class="small-title">Site Maintenance
+              </p>
+              <p class="small-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus et risus sed vulputate. Curabitur ultricies risus a lacinia sagittis. Morbi rhoncus congue bibendum. Nam mollis, nulla eget placerat porttitor. 
+              </p>
+            </div>
+            <div class="card with-border">
+              <p class="small-title">Community Share Day
+              </p>
+              <p class="small-text">Pellentesque congue placerat est molestie malesuada. Donec a justo eu ex interdum luctus at blandit est. Pellentesque ac porttitor lectus, nec cursus justo. Integer ac augue nec odio sodales vehicula.
+
+              </p>
+            </div>
+            <div class="card" id="last-card">
+              <p class="small-title">Updated Privacy Policy
+              </p>
+              <p class="small-text">Praesent varius elementum tortor et accumsan. Ut a velit ullamcorper, pretium dui id, facilisis justo. Aliquam eleifend mattis venenatis. Pellentesque in massa non nulla porttitor accumsan eu at tortor. Quisque.
+
+              </p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="trending">
+          <p class="section">Trending</p>
+          <div class="trending-block">
+            <div class="card">  
+              <img src="./images/account-circle.svg" alt="user">
+              <div class="trending-text">
+                <p class="name">@tegan</p>
+                <p>World peace Builder</p>
+              </div>
+              
+            </div>
+            <div class="card">
+              <img src="./images/account-circle.svg" alt="user">
+              <div class="trending-text">
+                <p class="name">@morgan</p>
+                <p>Super Cool Project</p>
+              </div>
+              
+            </div>
+            <div class="card">
+              <img src="./images/account-circle.svg" alt="user">
+              <div class="trending-text">
+                <p class="name">@kendall</p>
+                <p>Life Changing App</p>
+              </div>
+              
+            </div>
+            <div class="card">
+              <img src="./images/account-circle.svg" alt="user">
+              <div class="trending-text">
+                <p class="name">@alex</p>
+                <p>No Traffic Maker</p>
+              </div>
+              
+            </div>
+          </div>
+      </div>
+      
+        
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
