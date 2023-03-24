@@ -8,7 +8,7 @@
 }
 
 img{
-  width: 1rem;
+  width: 1.5rem;
   height: auto;
 }
 
@@ -20,6 +20,10 @@ img[src="./images/account-circle.svg"]{
   width: 4rem;
   height: auto
 }
+.search img{
+  width: 1.2rem;
+  margin-right: 1rem;
+}
 .container{
   display: grid;
   grid-template-columns:1fr 4fr ;
@@ -29,11 +33,25 @@ img[src="./images/account-circle.svg"]{
 
 .header{
   grid-column:2/4 ;
-  background-color: #fafafa;
+  background-color: #facc15;
   display: grid;
   grid-template-columns: 2fr 1fr;
   padding: 1rem 3rem .7rem 2rem;
   gap: 1rem;
+  font-weight: bold;
+}
+input[type=text] {
+  padding:12px; 
+  background-color: #fafafa;
+  border: 2px solid #fafafa ;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+
+}
+
+
+.greeting{
+  font-size: .7rem;
 }
 .user{ 
   justify-self:end ;
@@ -65,15 +83,30 @@ input{
 }
 .sidebar{
   grid-row: 1/3;
-  background-color: #171717;
-  color: #fafafa;
+  background-color: #fafafa;
+  padding-left: 1rem;
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 70px;
 }
+.sidebar-item{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.sidebar img{
+  width: 1.2rem;
+  height: auto;
+}
+img[alt="dashboard"]{
+  width: 2.5rem;
+  height: auto;
+  
+}
 .logo-text{
-  font-size: 32px;
+  font-size: 26px;
 }
 ul{
   list-style: none;
@@ -85,7 +118,7 @@ li{
 }
 
 .main{
-  background-color:#737373 ;
+  background-color:#1c1917 ;
   grid-row: 2/3;
   grid-column: 2/3;
   display: grid;
@@ -117,6 +150,7 @@ li{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border-left: solid #facc15 8px;
 }
 .icons img{
   width: 1.8rem;
@@ -157,14 +191,15 @@ li{
   border-style: none;
 }
 .announcements{
-  grid-row: 1/2;
-  grid-column: 1/2;
+
+  margin-bottom: 1.5rem;
 }
 .announcements, .trending{
   width: 250px;
   flex: 1;
 
 }
+
 .main-side{
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -193,6 +228,7 @@ li{
   color: gray;
 }
 .section{
+  color: #fafafa;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -227,6 +263,9 @@ li{
 .trending-block img{
   padding-right: .5rem;
   width: 2.5rem;
+}
+.svg path{
+  fill: #fafafa;
 }
 
 
